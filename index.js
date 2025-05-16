@@ -69,6 +69,7 @@ $(function () {
             trigger: "#con01",
             scrub: 2,
             end: "100%"
+            // markers: true,
         },
     })
     gsap.to(listB, {
@@ -77,6 +78,7 @@ $(function () {
             trigger: "#con01",
             scrub: 2,
             end: "100%"
+            // markers: true,
         },
     })
     gsap.to(listC, {
@@ -85,6 +87,7 @@ $(function () {
             trigger: "#con01",
             scrub: 2,
             end: "100%"
+            // markers: true,
         },
     })
 
@@ -96,6 +99,7 @@ $(function () {
             start: "0% 100%",
             end: "0% 30%",
             scrub: 2,
+            // markers: true,
         }
     })
         .fromTo(
@@ -111,6 +115,7 @@ $(function () {
             start: "0% 100%",
             end: "0% 100%",
             scrub: 2,
+            // markers: true,
 
         }
     })
@@ -123,6 +128,7 @@ $(function () {
             start: "100% 50%",
             end: "100% 0%",
             scrub: 2,
+            // markers: true,
         }
     })
         .to(
