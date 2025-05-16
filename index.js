@@ -40,7 +40,7 @@ $(function () {
                 start: "top 80%",
                 end: "20% 30%",
                 scrub: 2,
-                markers: true,
+                // markers: true,
             },
         }
     );
